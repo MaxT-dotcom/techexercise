@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Project</h1>
+</header>
+
+<nav>
+<a href="/webproject-orm/simpleSearchHB.html">Search Data</a> <br>
+</nav>
+
+<section>
+	
+	<form action="InsertHB" method="POST">
+	
+		Project Name: <input type="text" name="name"> <br />
+		Deadline (Form MM/DD/YYYY): <input type="text" name="deadline"> <br />
+		Member's Initials (Form 11, 22, 33, ...): <input type="text" name="memberList"> <br />
+		Organization: <input type="text" name="organization"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+</body>
+</html>

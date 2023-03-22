@@ -45,8 +45,8 @@ public class InsertHB extends HttpServlet {
 				"<head><title>Submit Success!</title></head>");
 		out.println("<body>");
 		out.println("<p>Inserted project with the data:\n" + project.toString() + "</p><br>");
-		out.println("<a href=techexercise/search.html> Search the database </a><br>");
-		out.println("<a href=techexercise/insert.html> Insert more data </a><br>");
+		out.println("<a href=/techexercise/search.html> Search the database </a><br>");
+		out.println("<a href=/techexercise/insert.html> Insert more data </a><br>");
 		out.println("</body></html>");
 	}
 

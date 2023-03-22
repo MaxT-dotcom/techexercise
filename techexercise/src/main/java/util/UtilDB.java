@@ -56,7 +56,7 @@ public class UtilDB {
 		
 		try {
 		tx = session.beginTransaction();
-		List<?> projects = session.createQuery("FROM Employee").list();
+		List<?> projects = session.createQuery("FROM Project").list();
 		for (Iterator<?> iterator = projects.iterator(); iterator.hasNext();) {
 	        Project project = (Project) iterator.next();
 	        if (project.getName().contains(keyword)) {
